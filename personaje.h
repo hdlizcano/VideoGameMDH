@@ -1,3 +1,4 @@
+
 #ifndef PERSONAJE_H
 #define PERSONAJE_H
 #include <QObject>
@@ -20,3 +21,4 @@ private:
     qreal rowPixmap, colPixmap, width, height;
 };
 #endif // PERSONAJE_H
+

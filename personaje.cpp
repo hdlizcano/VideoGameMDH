@@ -7,9 +7,9 @@ Personaje::Personaje(QObject *parent)
 {
     rowPixmap = 0;
     colPixmap = 0;
-    width = 16;
-    height = 16;
-    stripe = new QPixmap(":/bomberman_stripe.png");
+    width = 200;
+    height = 200;
+    stripe = new QPixmap(":/bomberman.png");
     timer = new QTimer;
     timer->start(200);
     connect(timer, &QTimer::timeout, this, Personaje::actualizarPersonaje);

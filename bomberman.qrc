@@ -1,6 +1,5 @@
 <RCC>
     <qresource prefix="/">
-        <file>bomberman_stripe.png</file>
         <file>bomberman.png</file>
     </qresource>
 </RCC>
