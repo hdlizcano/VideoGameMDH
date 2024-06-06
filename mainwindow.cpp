@@ -18,9 +18,13 @@ MainWindow::MainWindow(QWidget *parent)
     ui->graphicsView->resize(scene->width()+5, scene->height()+5);
     this->resize(ui->graphicsView->width()+100, ui->graphicsView->height()+100);
     scene->addItem(personaje);
+
     scene->addItem(Enemigo);
-    personaje->setPos(0, 0);
+    
     Enemigo->setPos(35,10);
+
+    personaje->setPos(0,0);
+
 }
 
 MainWindow::~MainWindow()
