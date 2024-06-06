@@ -16,7 +16,6 @@ MainWindow::MainWindow(QWidget *parent)
                  ui->graphicsView->height()+100);
     scene->addItem(personaje);
     personaje->setPos(0,0);
-    QPixmap* stripe = new QPixmap(":/bomberman.png");
 }
 MainWindow::~MainWindow()
 {
