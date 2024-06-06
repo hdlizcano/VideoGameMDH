@@ -1,5 +1,7 @@
 <RCC>
     <qresource prefix="/">
-        <file>../../../Downloads/NES - Bomberman - General Sprites.png</file>
+        <file>character.png</file>
+        <file>BB2_2.png</file>
+        <file>planeta-tierra.png</file>
     </qresource>
 </RCC>

@@ -1,8 +1,14 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
-#include <QGraphicsScene>
+
 #include <QMainWindow>
-#include "personaje.h"
+#include <personaje.h>
+#include <QGraphicsScene>
+#include <QKeyEvent>
+#include <enemigo.h>
+#include<QList>
+#include<QTimer>
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -17,10 +23,14 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    void keyPressEvent(QKeyEvent *event);
 
 private:
-    Personaje* personaje;
-    QGraphicsScene* scene;
     Ui::MainWindow *ui;
+    QGraphicsScene *scene;
+    Personaje *personaje;
+    enemigo *Enemigo;
+
+
 };
 #endif // MAINWINDOW_H
